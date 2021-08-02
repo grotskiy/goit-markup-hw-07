@@ -1,0 +1,78 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color-logo: #2196f3;
+  --accent-color-first: black;
+  --accent-color-sec: #212121;
+  --accent-color-thr: #757575;
+  --accent-color-four: #ffffff;
+  --accent-color-fth: #afb1b8;
+  --accent-background-color: #2196f3;
+  --accent-background-color-sec: #f5f4fa;
+  --accent-background-color-thr: #ffffff;
+  --accent-background-color-four: #44454e;
+  --accent-color-fth: rgba(255, 255, 255, 0.6);
+  --footer-background: #2f303a;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--accent-color-sec);
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */
