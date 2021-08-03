@@ -1,0 +1,42 @@
+.port-main-ul {
+    margin-bottom: 50px;
+  }
+  
+  .port-main-list {
+    &:not(:last-child) {
+    margin-right: 8px;
+    }
+  }
+  
+  .port-modal-btn {
+    padding: 6px 22px;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--accent-background-color-sec);
+  
+    transition: background-color 250ms var(--transition-timing-function);
+
+    &:hover {
+        color: var(--accent-color-four);
+        background-color: var(--accent-background-color);
+        cursor: pointer;
+        }
+    &:focus {
+    color: var(--accent-color-four);
+    background-color: var(--accent-background-color);
+    cursor: pointer;
+    }
+  }
+  
+  .port-modal-btn.current {
+    color: var(--accent-color-four);
+    background-color: var(--accent-background-color);
+  }
+  

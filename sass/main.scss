@@ -1,4 +1,26 @@
 @import "./utils/variables";
+@import "./utils/visually-hidden";
+
 @import "./base/common";
 @import "./base/container";
-@import "./utils/visually-hidden";
+
+@import "./components/backdrop";
+@import "./components/form";
+@import "./components/footer";
+@import "./components/footer-social-list";
+@import "./components/footer-subscription";
+@import "./components/head-description";
+@import "./components/modal-btn";
+@import "./components/modal-window";
+@import "./components/service-btn";
+@import "./components/social-icon-list";
+
+@import "./layout/about";
+@import "./layout/clients";
+@import "./layout/detail";
+@import "./layout/header";
+@import "./layout/port-overlay";
+@import "./layout/portfolio-btn";
+@import "./layout/portfolio-pic-list";
+@import "./layout/service";
+@import "./layout/team";
