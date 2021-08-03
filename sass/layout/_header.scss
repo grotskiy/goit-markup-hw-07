@@ -49,56 +49,34 @@
   
     transition: color 250ms var(--transition-timing-function);
 
-    &:hover {
-        color: var(--accent-color-logo);
-      }
-    &:focus {
+      
+  &:hover,
+  &:focus {
     color: var(--accent-color-logo);
-      }
   }
-  
+  }
   
   .menu-link.current {
     color: var(--accent-color-logo);
     position: relative;
-
-    &::after {
-        position: absolute;
-        bottom: -33px;
-        left: 0;
-        content: "";
-        display: block;
-        width: 100%;
-        height: 4px;
-        background-color: var(--accent-color-logo);
-        border-radius: 2px;
-      }
   }
   
-
+  .menu-link.current::after {
+    position: absolute;
+    bottom: -33px;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color-logo);
+    border-radius: 2px;
+  }
   
   .header-contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
-
-    &:hover + { .mail-icon {
-        fill: var(--accent-color-logo);
-      }
-    }
-    &:focus + { .mail-icon {
-      fill: var(--accent-color-logo);
-      }
-    }
-    
-    &:hover + { .tel-icon {
-        fill: var(--accent-color-logo);
-      }
-    }
-    &:focus + { .tel-icon {
-      fill: var(--accent-color-logo);
-      }
-    }
   }
 
   .mail-icon,
@@ -123,12 +101,21 @@
   
     transition: color 250ms var(--transition-timing-function);
 
-  &:hover {
-    color: var(--accent-color-logo);
+    &:hover,
+    &:focus {
+      color: var(--accent-color-logo);
+    }
+    
   }
-  &:focus {
-    color: var(--accent-color-logo);
+  
+  .header-contacts-link:hover .mail-icon,
+  .header-contacts-link:focus .mail-icon {
+    fill: var(--accent-color-logo);
   }
+  
+  .header-contacts-link:hover .tel-icon,
+  .header-contacts-link:focus .tel-icon {
+    fill: var(--accent-color-logo);
   }
   
   .header-tel {
@@ -149,13 +136,11 @@
     color: var(--accent-color-thr);
   
     transition: color 250ms var(--transition-timing-function);
-
-  &:hover {
-    color: var(--accent-color-logo);
-  }
+      
+  &:hover,
   &:focus {
     color: var(--accent-color-logo);
   }
   }
-  
+
   

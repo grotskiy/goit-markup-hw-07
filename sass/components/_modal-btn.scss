@@ -17,11 +17,9 @@
   
     transition: background-color 250ms var(--transition-timing-function);
 
-    &:focus {
-        background-color: #188CE8;
-      }
-    &:hover {
-      background-color: #188CE8;
-    }
+      
+  &:focus,
+  &:hover {
+    background-color: #188CE8;
   }
-  
+  }

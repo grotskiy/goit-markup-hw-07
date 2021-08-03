@@ -4,23 +4,19 @@
 @import "./base/common";
 @import "./base/container";
 
-@import "./components/backdrop";
-@import "./components/form";
-@import "./components/footer";
-@import "./components/footer-social-list";
-@import "./components/footer-subscription";
-@import "./components/head-description";
+@import "./components/team-social";
+@import "./components/footer-social";
+@import "./components/modal";
 @import "./components/modal-btn";
-@import "./components/modal-window";
-@import "./components/service-btn";
-@import "./components/social-icon-list";
+@import "./components/modal-close-btn";
+@import "./components/modal-message";
+@import "./components/modal-form";
 
-@import "./layout/about";
-@import "./layout/clients";
-@import "./layout/detail";
 @import "./layout/header";
-@import "./layout/port-overlay";
-@import "./layout/portfolio-btn";
-@import "./layout/portfolio-pic-list";
 @import "./layout/service";
+@import "./layout/detail";
+@import "./layout/about";
 @import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio";
