@@ -525,16 +525,16 @@ body {
   padding-bottom: 94px;
 }
 
-.detail-ul {
+.detail {
   display: flex;
   justify-content: space-between;
 }
 
-.detail-list {
+.detail__list {
   width: 270px;
 }
 
-.detail-cont {
+.detail__cont {
   display: flex;
   justify-content: center;
   padding: 25px 0;
@@ -544,12 +544,12 @@ body {
   border-radius: 4px;
 }
 
-.detail-icon {
+.detail__icon {
   width: 70px;
   height: 70px;
 }
 
-.detail-head {
+.detail__head {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -558,7 +558,7 @@ body {
   text-transform: uppercase;
 }
 
-.detail-desc {
+.detail__desc {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -583,7 +583,7 @@ body {
   justify-content: space-between;
 }
 
-.about-list {
+.about__list {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
