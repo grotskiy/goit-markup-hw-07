@@ -483,7 +483,7 @@ body {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/bg.jpg);
 }
 
-.service-title {
+.service__title {
   width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -496,7 +496,7 @@ body {
   color: var(--accent-color-four);
 }
 
-.service-btn {
+.service__btn {
   padding: 10px 32px;
   border-radius: 4px;
   background: var(--accent-background-color);
@@ -515,7 +515,7 @@ body {
   transition: color 250ms var(--transition-timing-function);
 }
 
-.service-btn:hover, .service-btn:focus {
+.service__btn:hover, .service__btn:focus {
   border-radius: 4px;
   color: var(--accent-color-four);
 }
@@ -623,25 +623,25 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team-ul {
+.team {
   display: flex;
   justify-content: space-between;
 }
 
-.team-list {
+.team__list {
   background: var(--accent-background-color-thr);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-desc {
+.team__list-desc {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.team-name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
@@ -649,7 +649,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team-desc {
+.team__desc {
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
